@@ -9,10 +9,10 @@ function App() {
           React Weather Search Engine
         </h1>
         <Weather />
-        </div>
-        <footer>
-          <a href="https://github.com/pengallow/react-weather-search-engine">GitHub Repository</a>
-        </footer>
+      </div>
+      <footer>
+        <a href="https://github.com/pengallow/react-weather-search-engine">GitHub Repository</a>
+      </footer>
     </div>
   );
 }
