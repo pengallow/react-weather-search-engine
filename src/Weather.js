@@ -5,6 +5,9 @@ import "./Weather.css";
 import EasyDate from "./easyDate";
 
 export default function Weather() {
+    let apiKey = "3b69d9e884899e81040ee4e357f33f8b";
+    let apiUrl = `api.openweathermap.org/data/2.5/weather?q=Virginia Beach&appid=${apiKey}`;
+
     return (
         <div className="weather container">
             <form>
