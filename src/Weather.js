@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "Axios";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Weather.css";
 import EasyDate from "./easyDate";
