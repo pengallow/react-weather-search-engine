@@ -4,6 +4,8 @@
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 form {
@@ -12,22 +14,30 @@ form {
 }
 
 .search-bar {
-  margin-right: 35px;
-  /*text-align: center;*/
-}
-
-h2 {
-  padding-left: 40px;
-  /*text-align: center;*/
-}
-
-li {
-  padding-left: 0;
-  /*text-align: center;*/
+  margin-right: 40px;
 }
 
 .icon-and-temp {
-  padding-left: 40px;
   margin-bottom: 10px;
-  /*text-align: center;*/
+}
+
+img {
+  float: left;
+  margin-left: 15px;
+  height: 64px;
+  margin-right: 10px;
+  width: 64px;
+}
+
+.temperature {
+  font-weight: bold;
+  float: left;
+  line-height: 64px;
+  font-size: 50px;
+}
+
+.unit {
+  float: left;
+  margin-top: 8px;
+  margin-left: 5px;
 }
