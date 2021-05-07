@@ -5,3 +5,29 @@
 ul {
   list-style: none;
 }
+
+form {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.search-bar {
+  margin-right: 35px;
+  /*text-align: center;*/
+}
+
+h2 {
+  padding-left: 40px;
+  /*text-align: center;*/
+}
+
+li {
+  padding-left: 0;
+  /*text-align: center;*/
+}
+
+.icon-and-temp {
+  padding-left: 40px;
+  margin-bottom: 10px;
+  /*text-align: center;*/
+}
